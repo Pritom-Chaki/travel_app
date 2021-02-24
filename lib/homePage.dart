@@ -2,7 +2,6 @@ import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:google_fonts/google_fonts.dart';
 
-
 import 'models/dataMode.dart';
 
 class HomePage extends StatefulWidget {
@@ -14,17 +13,17 @@ class _HomePageState extends State<HomePage> {
   List hotels = [
     DataModel(
         imgUrl: 'assets/images/hotel1.jpeg',
-        name: 'Tandoori Hotel',
+        name: 'Hotel Redison',
         price: 500,
         rating: 4.5),
     DataModel(
         imgUrl: 'assets/images/hotel2.jpeg',
-        name: 'Chapathi Hotel',
+        name: 'Vista Hotel',
         price: 500,
         rating: 4.9),
     DataModel(
-        imgUrl: 'assets/images/hotel2.jpeg',
-        name: 'Tandoori Hotel',
+        imgUrl: 'assets/images/hotel1.jpeg',
+        name: '7 Sea Hotel',
         price: 500,
         rating: 4.9)
   ];
@@ -32,7 +31,7 @@ class _HomePageState extends State<HomePage> {
   List foods = [
     DataModel(
         imgUrl: 'assets/images/food1.jpeg',
-        name: 'Indian Recipes',
+        name: 'Deshi Recipes',
         price: 50,
         rating: 4.5),
     DataModel(
@@ -41,7 +40,7 @@ class _HomePageState extends State<HomePage> {
         price: 10,
         rating: 4.0),
     DataModel(
-        imgUrl: 'assets/images/food2.jpeg',
+        imgUrl: 'assets/images/food1.jpeg',
         name: 'Eastern,Baiti Telford',
         price: 10,
         rating: 4.0)
@@ -87,7 +86,7 @@ class _HomePageState extends State<HomePage> {
                         Column(
                           children: [
                             Text(
-                              'India',
+                              'Bangladesh',
                               textScaleFactor: 1.0,
                               style: GoogleFonts.lato(
                                   fontSize: 35,
